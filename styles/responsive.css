@@ -1,0 +1,32 @@
+@media screen and (max-width:576px) {
+    #nav-container ,.hero-container {
+        flex-direction: column;
+        
+    }
+
+    #nav-container ,.nav-item ,.hero-content {
+        text-align: center;
+    }
+
+    .flex-wrep , .nav-item {
+        flex-wrap: wrap;
+    }
+
+    .margin-top,.nav-item{
+        margin-top: 20px;
+    }
+    .justify-content ,.nav-item {
+        justify-content: center;
+    }
+
+    .order , .hero-content {
+        order: 2;
+    }
+
+    .order-two , .hero-image {
+        order: 1;
+    }
+    .bg-center , .hero-image{
+        background-position: center center;
+    }
+}
