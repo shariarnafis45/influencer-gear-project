@@ -1,236 +1,231 @@
 /* Google Font  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Google Font  */
 
 /* shared style */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --primary-font:"Poppins", sans-serif;
-    --secondary-font:"Inter", sans-serif;
-    --primary-color:#3A3A3A;
-    --btn-color:#E02C6D;
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+  --primary-color: #3a3a3a;
+  --btn-color: #e02c6d;
 }
 
-.primary-font{
-    font-family: var(--primary-font);
-    
+.primary-font {
+  font-family: var(--primary-font);
 }
 
-.container-width , main > section , .footer-container {
-    max-width: 1220px;
-    margin: 0 auto;
+.container-width,
+main > section,
+.footer-container {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
-.display-flex{
-    display: flex;
-    justify-content: space-between;
+.display-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 .padding {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
-.paragraph{
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--primary-color);
+.paragraph {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
-.primary-btn{
-    background-color: var(--btn-color);
-    padding: 10px 24px;
-    border: none;
-    border-radius: 41px;
-    font-size: 1rem;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+.primary-btn {
+  background-color: var(--btn-color);
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.image{
-    width: 100%;
+.image {
+  width: 100%;
 }
 
-.heading{
-    font-size: 1.6rem;
-    line-height: 70px;
-    font-weight: 500;
-    color: #3A3A3A;
+.heading {
+  font-size: 1.6rem;
+  line-height: 70px;
+  font-weight: 500;
+  color: #3a3a3a;
 }
 
 /* Main Styles */
 /* nav styles */
 #nav-container {
-    padding: 45px 0 100px;
-    align-items: center;
+  padding: 45px 0 100px;
+  align-items: center;
 }
-.nav-item{
-    gap:34px;
+.nav-item {
+  gap: 34px;
 }
 
 .nav-item li {
-    list-style:none;
+  list-style: none;
 }
 
 .nav-item li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* Hero Styles */
 
 .hero-container {
-    align-items:center ;
+  align-items: center;
 }
 
 .hero-content {
-    max-width: 582px;
+  max-width: 582px;
 }
 
 .hero-title {
-    font-size: 3.2rem;
-    line-height: 70px;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-bottom: 16px;
-
+  font-size: 3.2rem;
+  line-height: 70px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 16px;
 }
 
-#influencer{
-    display: block;
+#influencer {
+  display: block;
 }
 
 .hero-content button {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
-.hero-image{
-    max-width: 475px;
-    background-image: url(../images/Circle\ design.svg);
+.hero-image {
+  max-width: 475px;
+  background-image: url(../images/Circle\ design.svg);
 }
 
 /* sponsors styles */
 
 .sponsors-container {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 61px;
-    background-color: rgba(192, 204, 218, 0.1);
-    padding: 36px 84px;
-    
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 61px;
+  background-color: rgba(192, 204, 218, 0.1);
+  padding: 36px 84px;
 }
 
 /* product styles */
 
-.product-head{
-    text-align: center;
-    margin-bottom: 30px;
+.product-head {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .card-container {
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
-.card{
-    max-width: 330px;
-    padding: 15px;
-    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-
+.card {
+  max-width: 330px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
 
 .see-btn-container {
-    display: flex;
-    justify-content: right;
-    margin-top: 50px;
-    padding-right: 3rem;
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+  padding-right: 3rem;
 }
 
 .see-btn {
-    background-color: white;
-    border: none;
-    text-align: right;
-    color: rgba(224, 44, 109, 0.87);
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
+  background-color: white;
+  border: none;
+  text-align: right;
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 /* cta section styles */
 
-#cta{
-    align-items: center;
+#cta {
+  align-items: center;
 }
 
 .cta-container {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cta-image {
-    max-width: 404px;
+  max-width: 404px;
 }
 
 .cta-content {
-    max-width: 610px;
+  max-width: 610px;
 }
 
 .cta-title {
-    font-size: 2.2rem;
-    font-weight: bold;
-    line-height: 60px;
-    color: #0A0826;
-    margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 60px;
+  color: #0a0826;
+  margin-bottom: 1rem;
 }
 
 .cta-btn {
-    border-radius: 0px;
-    margin-top: 1rem;
+  border-radius: 0px;
+  margin-top: 1rem;
 }
 
 /* footer style */
 
 footer {
-    background-color: #0A0826;
+  background-color: #0a0826;
 }
 
 .footer-container {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-.footer-container h2  {
-    color: white;
+.footer-container h2 {
+  color: white;
 }
 .footer-container P {
-    color: white;
+  color: white;
 }
 
 .icon {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 16px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 16px;
 }
 
 .icon img {
-    width: 32px;
-    
+  width: 32px;
 }
