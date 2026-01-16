@@ -115,3 +115,14 @@
     max-width: 475px;
     background-image: url(../images/Circle\ design.svg);
 }
+
+/* sponsors styles */
+
+.sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 61px;
+    background-color: rgba(192, 204, 218, 0.1);
+    padding: 36px 84px;
+    
+}

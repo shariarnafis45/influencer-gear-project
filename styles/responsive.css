@@ -29,4 +29,8 @@
     .bg-center , .hero-image{
         background-position: center center;
     }
+
+    .sponsors-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
