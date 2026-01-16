@@ -172,3 +172,35 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+/* cta section styles */
+
+#cta{
+    align-items: center;
+}
+
+.cta-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-image {
+    max-width: 404px;
+}
+
+.cta-content {
+    max-width: 610px;
+}
+
+.cta-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 1rem;
+}
+
+.cta-btn {
+    border-radius: 0px;
+    margin-top: 1rem;
+}

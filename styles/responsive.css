@@ -1,10 +1,10 @@
 @media screen and (max-width:576px) {
-    #nav-container ,.hero-container {
+    #nav-container ,.hero-container ,.cta-container {
         flex-direction: column;
         
     }
 
-    #nav-container ,.nav-item ,.hero-content {
+    #nav-container ,.nav-item ,.hero-content , .cta-content{
         text-align: center;
     }
 
@@ -15,15 +15,15 @@
     .margin-top,.nav-item{
         margin-top: 20px;
     }
-    .justify-content ,.nav-item {
+    .justify-content ,.nav-item ,. {
         justify-content: center;
     }
 
-    .order , .hero-content {
+    .order , .hero-content ,.cta-image {
         order: 2;
     }
 
-    .order-two , .hero-image {
+    .order-two , .hero-image , .cta-content {
         order: 1;
     }
     .bg-center , .hero-image{
@@ -31,6 +31,15 @@
     }
 
     .sponsors-container , .card-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gap , .cta-container{
+        gap: 30px;
+    }
+
+    .card{
+        margin: 0 auto;
+        
     }
 }
