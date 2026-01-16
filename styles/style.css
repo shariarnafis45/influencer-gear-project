@@ -67,6 +67,13 @@
     width: 100%;
 }
 
+.heading{
+    font-size: 1.6rem;
+    line-height: 70px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+
 /* Main Styles */
 /* nav styles */
 #nav-container {
@@ -125,4 +132,43 @@
     background-color: rgba(192, 204, 218, 0.1);
     padding: 36px 84px;
     
+}
+
+/* product styles */
+
+.product-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+
+.card{
+    max-width: 330px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+}
+
+.see-btn-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    padding-right: 3rem;
+}
+
+.see-btn {
+    background-color: white;
+    border: none;
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
 }
