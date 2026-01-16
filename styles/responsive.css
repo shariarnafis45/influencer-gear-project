@@ -1,4 +1,10 @@
-@media screen and (max-width: 576px) {
+
+
+
+/* large Device responsive style 992px */
+
+
+@media screen and (min-width: 576px) and (max-width:992px) {
   #nav-container,
   .hero-container,
   .cta-container {
@@ -44,7 +50,85 @@
 
   .sponsors-container,
   .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+
+  .gap,
+  .cta-container {
+    gap: 30px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}
+
+
+
+/* medium device 768px */
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* mobile device 576px styles */
+
+@media screen and (max-width: 576px) {
+  #nav-container,
+  .hero-container,
+  .cta-container {
+    flex-direction: column;
+  }
+
+  #nav-container,
+  .nav-item,
+  .hero-content,
+  .cta-content {
+    text-align: center;
+  }
+
+  .flex-wrep,
+  .nav-item {
+    flex-wrap: wrap;
+  }
+
+  .margin-top,
+  .nav-item {
+    margin-top: 20px;
+  }
+  .justify-content,
+  .nav-item {
+    justify-content: center;
+  }
+
+  .order,
+  .hero-content,
+  .cta-image {
+    order: 2;
+  }
+
+  .order-two,
+  .hero-image,
+  .cta-content {
+    order: 1;
+  }
+  .bg-center,
+  .hero-image {
+    background-position: center center;
+  }
+
+  
+  .card-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sponsors-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .gap,
@@ -56,3 +140,4 @@
     margin: 0 auto;
   }
 }
+
